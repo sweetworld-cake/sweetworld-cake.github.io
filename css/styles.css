@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url("../webfonts/ABeeZee_italic/stylesheet.css");
+@import url("../webfonts/Alegreya_900/stylesheet.css");
+@import url("../webfonts/Asset_regular/stylesheet.css");
+@import url("../webfonts/Amatic_SC_regular/stylesheet.css");
+@import url("../webfonts/Amatic_SC_700/stylesheet.css");
+@import url("../webfonts/Aguafina_Script_regular/stylesheet.css");
+@import url("../webfonts/Advent_Pro_100/stylesheet.css");
+@import url("../webfonts/ABeeZee_italic/stylesheet.css");
+@import url("../webfonts/ABeeZee_italic/stylesheet.css");
+@import url("../webfonts/ABeeZee_italic/stylesheet.css");
+@import url("../webfonts/Swanky_and_Moo_Moo_regular/stylesheet.css");
+
+body, html {height: 100%;margin: 0;}
+.H1_Font_top {
+	font-family: "Swanky and Moo Moo regular";
+	font-size: 60px;
+}
+.mySlides  {
+	display:none;
+}
+.bgimg {
+  min-height: 100%;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/krzysiek_top_low.jpg");
+}
+
+
+.shadow {
+	filter: drop-shadow(10px 10px 10px black);
+}
+.topnav-centered {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
