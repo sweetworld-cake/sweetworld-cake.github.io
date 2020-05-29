@@ -16,7 +16,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg_1_small {
+.bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,19 +40,16 @@ body, html {
   background-image: url("images/parallax3.jpg");
   min-height: 400px;
 }
-	.bgimg_1_small {
-  background-image: url("images/_MG_0301.jpg");
-  min-height: 400px;
-}
+
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 .bgimg_1_small {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
-    min-height: 400px;
+    
   }
 }
 </style>
@@ -105,11 +102,15 @@ body, html {
     </div>
 </div>
 
-<div class="bgimg_1_small w3-display-container w3-hide-large w3-hide-medium" id="home_small">
+<div class="w3-display-container w3-hide-large w3-hide-medium" id="home_small">
   <!--div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
-  </div-->
-	  <div class="w3-display-left w3-padding-large">
+  </div .bgimg_1_small {
+  background-image: url("images/_MG_0301.jpg");
+  min-height: 400px;
+}-->	
+	<img src="images/_MG_0301.jpg" class="w3-image" alt="First image" style="width:100%; min-height: 400px">  
+	<div class="w3-display-left w3-padding-large">
       <!--h6>Welcome to <span class="w3-tag">Sweet world</span> by</h6-->
 	  <h1 class="H1_Font_top w3-text-black" style="text-shadow: 15px 15px 15px black;">Krzysztof Kopciński</h1>
 		<!--h1 class="w3-text-white">Krzysztof's</h1-->
