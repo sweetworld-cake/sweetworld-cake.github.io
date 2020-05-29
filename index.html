@@ -67,8 +67,8 @@ body, html {
 	  <a href="#" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-instagram"></i></a>
 	  <a href="#" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-facebook-square"></i></a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> O MNIE</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAK</a>
+    <a href="#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKT</a>
 	   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-twitter"></i></a>
 	  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-instagram"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-facebook-square"></i>
@@ -81,7 +81,7 @@ body, html {
 	
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#galeria" class="w3-bar-item w3-button" onclick="toggleFunction()">GALERIA</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -97,8 +97,8 @@ body, html {
       <!--h6>Welcome to <span class="w3-tag">Sweet world</span> by</h6-->
 	  <h1 class="H1_Font_top_max w3-text-white" style="text-shadow: 15px 15px 15px black;">Krzysztof Kopciński</h1>
 		<!--h1 class="w3-text-white">Krzysztof's</h1-->
-      <h1 class="w3-jumbo w3-text-white" style="text-shadow: 15px 15px 15px black;"><b>Sweet World</b></h1>
-      <h6><button class="w3-button w3-white w3-padding-small w3-large w3-opacity w3-hover-opacity-off"  onclick="document.getElementById('subscribe').style.display='block'">Welcome</button></h6>
+      <h1 class="w3-larg w3-text-white" style="text-shadow: 15px 15px 15px black;"><b>Pastry Chef</b></h1>
+		  <p><a href="#galeria" class="w3-button w3-white w3-padding-large w3-large w3-opacity-max w3-hover-opacity-off"><b>GALERIA</b></a></p>
     </div>
 </div>
 
@@ -114,27 +114,26 @@ body, html {
       <!--h6>Welcome to <span class="w3-tag">Sweet world</span> by</h6-->
 	  <h1 class="H1_Font_top w3-text-black" style="text-shadow: 15px 15px 15px black;">Krzysztof Kopciński</h1>
 		<!--h1 class="w3-text-white">Krzysztof's</h1-->
-      <h1 class="w3-large w3-text-black" style="text-shadow: 15px 15px 15px black;"><b>Sweet World</b></h1>
-      <h6><button class="w3-button w3-white w3-padding-small w3-large w3-opacity w3-hover-opacity-off w3-text-black"  onclick="document.getElementById('subscribe').style.display='block'">Welcome</button></h6>
+      <h1 class="w3-large w3-text-black" style="text-shadow: 15px 15px 15px black;"><b>Pastry Chef</b></h1>
+      <p><a href="#galeria" class="w3-button w3-white w3-padding-large w3-large w3-opacity-max w3-hover-opacity-off"><b>GALERIA</b></a></p>
     </div>
 </div>
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-small" id="about">
-  <h1 class="w3-center">O mnie</h1>
+  <h1 class="w3-center">O MNIE</h1>
    <p class="w3-large w3-justify">
 	</p>
 	<p class="w3-large w3-justify">
 </p>
   <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
+    <div class="w3-col m6 w3-center w3-padding-large w3-hide-small">
       
       <img src="images/o_mnie.png" class="w3-round w3-image w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-small">
-      <p class="w3-large w3-justify">Od najmłodszych lat przejawiałem zainteresowanie kulinariami. Wielką miłością
-obdarzyłem słodkości. W dzieciństwie oczywiście za ich smak ale później, stopniowo
+    <div class="w3-col m6  w3-padding-small">
+      <p class="w3-large w3-justify">Od najmłodszych lat przejawiałem zainteresowanie kulinariami. Wielką miłością obdarzyłem słodkości. W dzieciństwie oczywiście za ich smak ale później, stopniowo
 zacząłem odkrywać i doceniać złożoność ich struktur i form. Do dzisiaj w
 cukiernictwie fascynuje mnie łączenie różnych, wręcz przeciwstawnych smaków,
 oraz wzajemne przenikanie faktur od tych subtelnych i aksamitnych po zdecydowane
@@ -170,51 +169,60 @@ warsztatach.</p>
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">Galeria</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+<div class="w3-content w3-container w3-padding-64" id="galeria">
+  <h3 class="w3-center">MÓJ SŁODKI ŚWIAT</h3>
+  <p class="w3-large w3-justify">Młość do wypieków zdeterminowała moje dotychczasowe życie. Na początku szkoła cukiernicza była naturalnym i oczywistym wyborem. Pierwsze doświadczenie w
+zawodzie zdobywałem w cukierni Stefana Górskiego na warszawskim Zaciszu.
+Następnie jako już szef cukierni w kultowej Kawiarni i Restauracji „Nowy Świat”.
+Później przyszedł czas na szlifowanie umiejętności za granicą, między innymi w
+Londynie w hotelu Dorchester prowadzonym przez Alaina Ducassa, uznanego i
+najlepszego szefa kuchni na świecie. Po powrocie do kraju chciałem wykorzystać
+moje nowo nabyte umiejętności i zostałem szefem cukierników w Klubie Polskiej
+Rady Biznesu, gdzie mogłem realizować się pod okiem Wojciecha Modesta Amaro.
+Po drodze była też restauracja Tamka 43. Od 2012 roku jako Pastry Chef jestem
+związany z restauracją N31.</p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      <img src="images_gallery/derse12_400_300.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      <img src="images_gallery/deser11_400_300.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      <img src="images_gallery/lod_400_300.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+      <img src="images_gallery/deser6_400_300.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+      <img src="images_gallery/deser_400_300.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+      <img src="images_gallery/lodka_400_300.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      <img src="images_gallery/szaro_czerwone_400_300.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="images_gallery/czekolada_400_300.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">WIĘCEJ</button>
   </div>
 </div>
 
