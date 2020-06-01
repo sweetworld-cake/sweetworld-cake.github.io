@@ -46,3 +46,9 @@ body, html {height: 100%;margin: 0;}
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.home_small_1 {
+	padding-bottom: 49px;
+	padding-left: 38px;
+	padding-right: 15px;
+	padding-top: 0px;
+}
