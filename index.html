@@ -53,7 +53,7 @@ body, html {
     }
 }
 </style>
-<body>
+<body  onload="typeWriter()">
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top w3-large">
@@ -94,7 +94,8 @@ body, html {
   </div-->
 	  <div class="w3-display-left w3-padding-large">
       <!--h6>Welcome to <span class="w3-tag">Sweet world</span> by</h6-->
-	  <h1 class="H1_Font_top_max w3-text-white" style="text-shadow: 15px 15px 15px black;">Krzysztof Kopciński</h1>
+	  <!--h1 class="H1_Font_top_max w3-text-white" style="text-shadow: 15px 15px 15px black;" >Krzysztof Kopciński</h1-->
+		  <h1 class="H1_Font_top_max w3-text-white" style="text-shadow: 15px 15px 15px black;" id="typewriter01"></h1>
 		<!--h1 class="w3-text-white">Krzysztof's</h1-->
       <h1 class="w3-jumbo w3-text-white" style="text-shadow: 15px 15px 15px black;"><b>Pastry Chef</b></h1>
 		  <p><a href="#galeria" class="w3-button w3-white w3-padding-large w3-large w3-opacity-max w3-hover-opacity-off"><b>GALERIA</b></a></p>
@@ -414,7 +415,7 @@ function toggleFunction() {
     }
 }
 //Slideshow show
-	var slideIndex = 0;
+var slideIndex = 0;
 showSlides();
 
 function showSlides() {
@@ -432,6 +433,18 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+var j = 0;
+var txt = 'Krzysztof Kopciński';
+var speed = 50;
+
+function typeWriter() {
+  if (j < txt.length) {
+    document.getElementById("typewriter01").innerHTML += txt.charAt(j);
+    j++;
+    setTimeout(typeWriter, speed);
+  }
 }
 </script>
 
