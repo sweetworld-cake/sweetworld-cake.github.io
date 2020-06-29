@@ -58,3 +58,22 @@ body, html {height: 100%;margin: 0;}
 	padding-right: 15px;
 	padding-top: 0px;
 }
+
+.przepisy_header {
+	letter-spacing: 1em;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 0.6em;
+}
+.first_bar {
+	position: relative;
+	height: 30vw;
+	background-color: #FFFFFF;
+}
+.first_bar_cont {
+	color: #000000;
+	position: absolute;
+	padding-top: 3em;
+	width: 100%;
+	text-align: center;
+}
