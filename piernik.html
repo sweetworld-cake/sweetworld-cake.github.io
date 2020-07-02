@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/w3.css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/styles_przepisy.css" rel="stylesheet" type="text/css">
 <link href="css/Slideshow.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,14 +29,14 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="index.html#home" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> HOME</a>
+    <a href="index.html#home" class="w3-bar-item w3-button w3-hide-small" id="home"><i class="fa fa-home"></i> HOME</a>
 	  <a href="index.html#home_small" class="w3-bar-item w3-button w3-hide-large w3-hide-medium"><i class="fa fa-home"></i></a>
 	  <a href="#" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-youtube-play"></i></a>
 	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-instagram"></i></a>
 	  <a href="https://www.facebook.com/krzysztof.kopcinski.1" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-facebook-square"></i></a>
     <a href="index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> O MNIE</a>
     <a href="index.html#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
-	<a href="#HOME_PRZEPISY" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> PRZEPISY</a>
+	<a href="news.html#HOME_PRZEPISY" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> PRZEPISY</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKT</a>
 	   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-youtube-play"></i></a>
 	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-instagram"></i></a>
@@ -57,36 +57,18 @@ body, html {
 <!--Page Content-->
 	
 <div calss="w3-content w3-container w3-padding-32" style="margin-top: 50px">
-	<div class="w3-content w3-container w3-padding-16 w3-hide-small">
-	<div class="first_bar">
+
+	<div class="w3-content w3-container w3-padding-8 w3-hide-small" id="about">
+			<div class="first_bar">
 	  <div class="first_bar_cont">
 		
+	
+		<h1 class="w3-center H1_Font_top_max">Krzysztof Kopciński</h1>
 		
-<h1 class="w3-center H1_Font_top_max">Krzysztof Kopciński</h1>
-		 
 		</div>
 	</div>
 	</div>
-	<div class="w3-content w3-container w3-padding-32 w3-hide-small" id="about">
-
-	  
-	<!-- Hide this text on small devices
-         <p class="w3-large w3-justify" style="margin-top: 50px">Jak sięgnę pamięcią w przeszłość to od najmłodszych lat interesowałem się cukiernictwem. Zaczynałem bardzo niewinnie od podbierania Babci czy Mamie świeżutkich ciast i ciasteczek, które były przeznaczone na jakąś domową, rodzinną uroczystość. Moje dzieciństwo przypadało na ciężkie czasy PRL-u, gdzie o przyjemną słodycz było ciężko. Stąd moja Babcia i Mama umilały mnie i mojemu starszemu bratu, a nierzadko kolegom i koleżankom z podwórka młodzieńcze lata słodkim co nie co. To od nich uczyłem się pierwszych cukierniczych sztuczek.</p>
-
-			 <p class="w3-large w3-justify" style="margin-top: 50px">
-
-			 Szkoła cukiernicza była już naturalnym wyborem. Pokochałem cukiernictwo i z całą pewnością mogę powiedzieć, że z wzajemnością. Uwielbiam eksperymentować, komponować i łączyć to co wydawałoby się nie do pogodzenia i nie do połączenia. Ciągle szukam czegoś nowego. Mogę powiedzieć, ze smak, faktura są dla mnie wyzwaniem. Według mnie doskonały deser łączy w sobie ekspresję kolorów, aksamitne i subtelne konsystencje oraz zaskakujący smak. 
-				 </p-->
-		
-
-			<h2 class="w3-center przepisy_header"><b>Historie pisane słodyczą</b></h2>
-			<p class="w3-large w3-justify" >
-Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów na desery, które znalazły uznanie wśród moich klientów, przyjaciół i najbliższych mi osób. W tym miejscu pragnę się z Wami nimi podzielić. Bawcie się bo kuchnia, a zwłaszcza słodkie wypieki, to kulinarna przygoda na coraz to nowym lądzie, którego stacja końcowa to przyjemne… „Słodko mi!”. Nie pozostaje mi już nic innego jak życzyć WAM wspaniałych wrażeń kulinarnych, smakowych w fantastycznym gronie najbliższych.
-</p>
-
-		
-		</div>
-				
+			<hr>	
 <div class="w3-display-container w3-hide-large w3-hide-medium" id="home_small">
   <!--div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
@@ -104,36 +86,61 @@ Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów n
     </div>
 </div>
 	<div class="w3-content w3-container w3-padding-32 w3-hide-large w3-hide-medium" >
-	<h3 class="w3-center">PRZEPISY</h3>    
+	<h3 class="w3-center">PRZEPIS NA</h3>    
 	<!-- Hide this text on small devices -->
          <!--p class="w3-large w3-justify">Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów na desery, które znalazły uznanie wśród moich klientów, przyjaciół i najbliższych mi osób. W tym miejscu pragnę się z Wami nimi podzielić. Bawcie się bo kuchnia, a zwłaszcza słodkie wypieki, to kulinarna przygoda na coraz to nowym lądzie, którego stacja końcowa to przyjemne… „Słodko mi!”. Nie pozostaje mi już nic innego jak życzyć WAM wspaniałych wrażeń kulinarnych, smakowych w fantastycznym gronie najbliższych.</p-->
 	</div>
 
   <!-- First Photo Grid-->
-<hr>
-  <div class="w3-content w3-container w3-padding-32 w3-row-padding w3-center">
-    <div class="w3-third">
-		<a href="piernik.html">
-      <img src="images_gallery/przepisy/PIERNIK.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-			</a>
-      <p class="w3-large">Czekoladowy piernik <br> ze śliwką w rumie</p>
-      
+
+  <div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
     
-	</div>
-    <div class="w3-third">
-      <a href="mus.html">
-		<img src="images_gallery/przepisy/czekolada_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Steak" style="width:100%">
-		</a>
-      
-      <p class="w3-large" >Mus limonkowo-kokosowy<br> z  tapioką i śliwką</p>
-    </div>
-    <div class="w3-third">
-		<a href="ptys.html">
-      <img src="images_gallery/przepisy/PTYS.png" width="420" height="200" class="w3-hover-opacity" alt="Cherries" style="width:100%">
-			</a>
+	  <div style="text-align: left">	
+	  <h3 class="w3-center w3-hide-large w3-hide-medium">Czekoladowy piernk ze śliwką w rumie</h3>
      
-      <p class="w3-large">Ptyś z marakują <br>i ciemną czekoladą</p>
-      
+     
+	  <div style="height: 10vw">
+      <h3 class="w3-center przepisy_header w3-hide-small"><b>PRZepis na</b></h3>
+<h1 class="w3-center w3-hide-small ">Czekoladowy piernk ze śliwką w rumie</h1>
+		 </div>
+	
+      <img src="images_gallery/przepisy/PIERNIK.jpg" style="width:100%">
+			
+    
+
+<hr>
+
+<div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-half" style="text-align: left">
+		
+
+<p><b><u>CIASTO</u></b></p>
+
+      <p> Mąka pszenna typ 500&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;380 g</p>
+      <p>Całe jajka&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 280 g</p>
+      <p>Miód spadziowy&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 190 g&nbsp;</p>
+      <p>Masło 82 %&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;120 g&nbsp;</p>
+      <p>Cukier kryształ&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;90 g&nbsp;</p>
+      <p>Mleko&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 80 g&nbsp;</p>
+      <p>Kakao&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30 g&nbsp;</p>
+      <p>Przyprawy korzenne&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;25 g&nbsp;</p>
+      <p>Proszek do pieczenia&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 15 g </p>
+    </div>
+    
+	<div class="w3-half w3-justify" style="text-align: left">
+     
+<p><b><u>PRZYGOTOWANIE:&nbsp;</u></b></p>
+<p>	Rozgrzej piekarnik do temperatury 160 stopni.</p>
+		<ol>
+          <li> &nbsp;W garnku zagotuj miód i cukier, dodaj mleko oraz masło.&nbsp;</li>
+          <li>&nbsp;Masę odstaw do schłodzenia.</li>
+<li>&nbsp;W misce połącz ze sobą pozostałe suche składniki. Następnie dodaj do nich wcześniej  przygotowaną płynną masę.</li>
+  <li>&nbsp;Ciasto wyrabiaj stopniowo dodając kolejno jajka i wyrabiaj do momentu uzyskania jednolitej masy.</li>
+  <li>Przełóż ciasto do keksówki, wyłożonej papierem do pieczenia i piecz w 20 minut w piekarniku nagrzanym do temperatury 160 stopni.</li>
+        </ol>
+
+		
+	
     </div>
     <!--div class="w3-quarter">
       <img src="images_gallery/przepisy/czekolada_400_300.jpg" alt="Pasta and Wine" style="width:100%">
@@ -141,55 +148,79 @@ Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów n
       <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div-->
   </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-content w3-container w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-third">
-		<a href="ptys.html">
-      <img src="images_gallery/01/deser11_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-			</a>
-      <h3>All I Need Is a Popsicle</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-			
-    </div>
-    <div class="w3-third">
-      <a href="ptys.html">
-		<img src="images_gallery/01/deser11_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-		  </a>
-      <h3>Salmon For Your Skin</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+	<hr>	  
+<div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-half w3-justify" style="text-align: left">
 		
-    </div>
-    <div class="w3-third">
-      <a href="ptys.html">
-		<img src="images_gallery/01/deser11_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-		</a>
-      <h3>The Perfect Sandwich, A Real Classic</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-	</div>
-	  <!-- Second Photo Grid-->
-	<div class="w3-content w3-container w3-row-padding w3-padding-16 w3-center">  
-	  <div class="w3-third">
-      <a href="ptys.html">
-		  <img src="images_gallery/01/deser11_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-		  </a>
-      <h3>Le French</h3>
-      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div>
 
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+<p><b><u>KARMELIZOWANE ŚLIWKI W RUMIE</u></b></p>
+		<p> Śliwki (bez pestek, przecięte na pół)&nbsp; 100 g&nbsp;</p>
+		<p>Cukier trzcino&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;100 g&nbsp;</p>
+		<p>Rum&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;70 g&nbsp;</p>
+		<p>Laska wanil&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2 szt. </p>
     </div>
+    
+	<div class="w3-half w3-justify" style="text-align: left">
+     
+<p><b><u>PRZYGOTOWANIE:&nbsp;</u></b></p>
+<ol>
+  <li>W garnku skarmelizuj cukier, dodaj nasiona wanilii.  Pod koniec dodaj połówki śliwek i duś do miękkości.</li>
+  <li>Do skarmelizowanych śliwek dodaj rum.&nbsp;</li>
+  <li>Wszystkie składniki zmiksuj do uzyskania delikatnej i jednolitej konsystencji.&nbsp;</li>
+
+</ol>
+
+
+    </div>
+      </div>
+<hr>
+		  
+		  <div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-half" style="text-align: left">
+		
+
+<p><b><u>POLEWA CZEKOLADOWA</u></b></p>
+
+
+<p> Czekolada 54%&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 150 g&nbsp;</p>
+<p>Śmietana 36%&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 300 g&nbsp;</p>
+<p>Masło 82%&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 50 g </p>
+    </div>
+    
+	<div class="w3-half w3-justify" style="text-align: left">
+     
+<p><b><u>PRZYGOTOWANIE:&nbsp;</u></b></p>
+<ol>
+  <li>W garnku zagotuj śmietanę i dodaj czekoladę, uzyskaną masę schłodź do temperatury 35 stopni. </li>
+  <li>Następnie dodaj masło o temperaturze pokojowej. </li>
+  <li>Przy pomocy robota dokładnie połącz wszystkie składniki.</li>
+</ol>
+
+    </div>
+      </div>
+<hr>
+<div class="w3-justify">
+<p><b><u>ZŁOŻENIE PIERNIKA&nbsp;</u></b></p>
+<p>Wcześniej upieczony piernik przekrój wzdłuż na 3 równe części. Posmaruj wszystkie warstwy skarmelizowanymi śliwkami. Trzecią, wierzchnią warstwę posmaruj bardzo delikatnie, tylko po to by nałożona później czekolada nie spływała z piernika. Złóż razem wszystkie warstwy i polej po wierzchu roztopioną czekoladą. Piernik udekoruj według upodobania np. gwiazdkami anyżu, skórką pomarańczową, korą cynamonową.
+</p>
+
+</div>
+
+
+		
+</div>
+
+      
+      
+ 
+    <!--div class="w3-quarter">
+      <img src="images_gallery/przepisy/czekolada_400_300.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div-->
   </div>
+  
+  
   
   <hr>
 <!-- Container (Contact Section) -->
@@ -246,7 +277,7 @@ Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów n
      </div>
 	<p>Copyright © 2020 by Me.</p>
 	<h1 class="H1_Font_bottom w3-text-white">Krzysztof Kopciński</h1>
-  <a href="index.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
   
   </footer>
  

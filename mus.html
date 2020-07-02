@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/w3.css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/styles_przepisy.css" rel="stylesheet" type="text/css">
 <link href="css/Slideshow.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,14 +29,14 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="index.html#home" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> HOME</a>
+    <a href="index.html#home" class="w3-bar-item w3-button w3-hide-small" id="home"><i class="fa fa-home"></i> HOME</a>
 	  <a href="index.html#home_small" class="w3-bar-item w3-button w3-hide-large w3-hide-medium"><i class="fa fa-home"></i></a>
 	  <a href="#" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-youtube-play"></i></a>
 	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-instagram"></i></a>
 	  <a href="https://www.facebook.com/krzysztof.kopcinski.1" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-facebook-square"></i></a>
     <a href="index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> O MNIE</a>
     <a href="index.html#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
-	<a href="#HOME_PRZEPISY" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> PRZEPISY</a>
+	<a href="news.html#HOME_PRZEPISY" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> PRZEPISY</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKT</a>
 	   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-youtube-play"></i></a>
 	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-instagram"></i></a>
@@ -57,36 +57,18 @@ body, html {
 <!--Page Content-->
 	
 <div calss="w3-content w3-container w3-padding-32" style="margin-top: 50px">
-	<div class="w3-content w3-container w3-padding-16 w3-hide-small">
-	<div class="first_bar">
+
+	<div class="w3-content w3-container w3-padding-8 w3-hide-small" id="about">
+			<div class="first_bar">
 	  <div class="first_bar_cont">
 		
+	
+		<h1 class="w3-center H1_Font_top_max">Krzysztof Kopciński</h1>
 		
-<h1 class="w3-center H1_Font_top_max">Krzysztof Kopciński</h1>
-		 
 		</div>
 	</div>
 	</div>
-	<div class="w3-content w3-container w3-padding-32 w3-hide-small" id="about">
-
-	  
-	<!-- Hide this text on small devices
-         <p class="w3-large w3-justify" style="margin-top: 50px">Jak sięgnę pamięcią w przeszłość to od najmłodszych lat interesowałem się cukiernictwem. Zaczynałem bardzo niewinnie od podbierania Babci czy Mamie świeżutkich ciast i ciasteczek, które były przeznaczone na jakąś domową, rodzinną uroczystość. Moje dzieciństwo przypadało na ciężkie czasy PRL-u, gdzie o przyjemną słodycz było ciężko. Stąd moja Babcia i Mama umilały mnie i mojemu starszemu bratu, a nierzadko kolegom i koleżankom z podwórka młodzieńcze lata słodkim co nie co. To od nich uczyłem się pierwszych cukierniczych sztuczek.</p>
-
-			 <p class="w3-large w3-justify" style="margin-top: 50px">
-
-			 Szkoła cukiernicza była już naturalnym wyborem. Pokochałem cukiernictwo i z całą pewnością mogę powiedzieć, że z wzajemnością. Uwielbiam eksperymentować, komponować i łączyć to co wydawałoby się nie do pogodzenia i nie do połączenia. Ciągle szukam czegoś nowego. Mogę powiedzieć, ze smak, faktura są dla mnie wyzwaniem. Według mnie doskonały deser łączy w sobie ekspresję kolorów, aksamitne i subtelne konsystencje oraz zaskakujący smak. 
-				 </p-->
-		
-
-			<h2 class="w3-center przepisy_header"><b>Historie pisane słodyczą</b></h2>
-			<p class="w3-large w3-justify" >
-Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów na desery, które znalazły uznanie wśród moich klientów, przyjaciół i najbliższych mi osób. W tym miejscu pragnę się z Wami nimi podzielić. Bawcie się bo kuchnia, a zwłaszcza słodkie wypieki, to kulinarna przygoda na coraz to nowym lądzie, którego stacja końcowa to przyjemne… „Słodko mi!”. Nie pozostaje mi już nic innego jak życzyć WAM wspaniałych wrażeń kulinarnych, smakowych w fantastycznym gronie najbliższych.
-</p>
-
-		
-		</div>
-				
+			<hr>	
 <div class="w3-display-container w3-hide-large w3-hide-medium" id="home_small">
   <!--div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
@@ -104,36 +86,54 @@ Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów n
     </div>
 </div>
 	<div class="w3-content w3-container w3-padding-32 w3-hide-large w3-hide-medium" >
-	<h3 class="w3-center">PRZEPISY</h3>    
+	<h3 class="w3-center">PRZEPIS NA</h3>    
 	<!-- Hide this text on small devices -->
          <!--p class="w3-large w3-justify">Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów na desery, które znalazły uznanie wśród moich klientów, przyjaciół i najbliższych mi osób. W tym miejscu pragnę się z Wami nimi podzielić. Bawcie się bo kuchnia, a zwłaszcza słodkie wypieki, to kulinarna przygoda na coraz to nowym lądzie, którego stacja końcowa to przyjemne… „Słodko mi!”. Nie pozostaje mi już nic innego jak życzyć WAM wspaniałych wrażeń kulinarnych, smakowych w fantastycznym gronie najbliższych.</p-->
 	</div>
 
   <!-- First Photo Grid-->
+
+  <div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
+    
+	  <div style="text-align: left">	
+	  <h3 class="w3-center w3-hide-large w3-hide-medium">Ptysia z marakują i ciemną czekoladą</h3>
+     
+     
+	  <div style="height: 10vw">
+      <h3 class="w3-center przepisy_header w3-hide-small"><b>PRZepis na</b></h3>
+<h1 class="w3-center w3-hide-small ">Ptysia z marakują i ciemną czekoladą</h1>
+		 </div>
+	
+      <img src="images_gallery/przepisy/PTYS.png" style="width:100%">
+			
+    
+
 <hr>
-  <div class="w3-content w3-container w3-padding-32 w3-row-padding w3-center">
-    <div class="w3-third">
-		<a href="piernik.html">
-      <img src="images_gallery/przepisy/PIERNIK.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-			</a>
-      <p class="w3-large">Czekoladowy piernik <br> ze śliwką w rumie</p>
+
+<div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-half" style="text-align: left">
+		
+
+<p><b><u>CIASTO PARZONE</u></b></p>
+<p>Woda                                400g</p>
+<p>Masło 182%                  200g</p>
+<p>Mąka typ 550&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;400g</p>
+<p>Szczypta soli</p>
+<p>Całe jajka&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10szt.</p>
+<p>Gałka muszkatołowa</p>
       
     
 	</div>
-    <div class="w3-third">
-      <a href="mus.html">
-		<img src="images_gallery/przepisy/czekolada_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Steak" style="width:100%">
-		</a>
-      
-      <p class="w3-large" >Mus limonkowo-kokosowy<br> z  tapioką i śliwką</p>
-    </div>
-    <div class="w3-third">
-		<a href="ptys.html">
-      <img src="images_gallery/przepisy/PTYS.png" width="420" height="200" class="w3-hover-opacity" alt="Cherries" style="width:100%">
-			</a>
+    
+	<div class="w3-half w3-justify" style="text-align: left">
      
-      <p class="w3-large">Ptyś z marakują <br>i ciemną czekoladą</p>
-      
+<p><b><u>PRZYGOTOWANIE:&nbsp;</u></b></p>
+<ol>
+  <li> &nbsp;W garnku zagotuj masło z wodą. Dodaj szczyptę gałki muszkatołowej i mąkę. Mieszaj całość do czasu, aż ciasto będzie odchodziło od naczynia. Zdejmij z palnika i ostudź.</li>
+  <li> &nbsp;Do wystudzonej masy dodaj kolejno jajka ciągle mieszając (musimy uważać na konsystencję, masa nie może być za luźna).</li>
+  <li> &nbsp;Gotową masę szprycuj na papier do pieczenia w odstępach około 3-4 cm, próbując uzyskać kulkę średnicy ok. 3 cm.</li>
+</ol>
+
     </div>
     <!--div class="w3-quarter">
       <img src="images_gallery/przepisy/czekolada_400_300.jpg" alt="Pasta and Wine" style="width:100%">
@@ -141,55 +141,103 @@ Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów n
       <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div-->
   </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-content w3-container w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-third">
-		<a href="ptys.html">
-      <img src="images_gallery/01/deser11_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-			</a>
-      <h3>All I Need Is a Popsicle</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-			
-    </div>
-    <div class="w3-third">
-      <a href="ptys.html">
-		<img src="images_gallery/01/deser11_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-		  </a>
-      <h3>Salmon For Your Skin</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+	<hr>	  
+<div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-half w3-justify" style="text-align: left">
 		
-    </div>
-    <div class="w3-third">
-      <a href="ptys.html">
-		<img src="images_gallery/01/deser11_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-		</a>
-      <h3>The Perfect Sandwich, A Real Classic</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-	</div>
-	  <!-- Second Photo Grid-->
-	<div class="w3-content w3-container w3-row-padding w3-padding-16 w3-center">  
-	  <div class="w3-third">
-      <a href="ptys.html">
-		  <img src="images_gallery/01/deser11_400_300.jpg" width="420" height="200" class="w3-hover-opacity" alt="Sandwich" style="width:100%">
-		  </a>
-      <h3>Le French</h3>
-      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div>
 
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+<p><b><u>KRUSZONKA DO PTYSIÓW</u></b></p>
+
+<p>Mąka typ 550&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 210g</p>
+
+<p>Brązowy cukier&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;200g</p>
+
+<p>Masło 82&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;160
+g</p>
+
+
+      
+    
+	</div>
+    
+	<div class="w3-half w3-justify" style="text-align: left">
+     
+<p><b><u>PRZYGOTOWANIE:&nbsp;</u></b></p>
+<ol>
+  <li>Wszystkie składniki wymieszaj razem.</li>
+  <li>Po dokładnym wymieszaniu rozwałkuj cieniutko ciasto miedzy dwoma pergaminami.&nbsp;</li>
+  <li> Tak przygotowane ciasto włóż do lodówki do schłodzenia.&nbsp;</li>
+  <li> Schłodzone ciasto wyjmij z lodówki i wytnij kółka większe od wyszprycowanej masy o co najmniej 1 cm.&nbsp;</li>
+  <li> Połóż wycięte kółka na wyszprycowne wcześniej kulki ciasta.&nbsp;</li>
+  <li>Piecz około 20 minut w piekarniku rozgrzanym do temperatury 190 stopni. Coś tu jest nie tak, te krążki pieczemy razem z ciastem ptysiowym, czy krążki pieczemy może oddzielnie?)</li>
+</ol>
+
     </div>
+      </div>
+<hr>
+		  
+		  <div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-half" style="text-align: left">
+		
+
+<p><b><u>MUS CZEKOLADOWY
+NA KREMIE ANGIELSKIM</u></b></p>
+
+<p>Krem angielski <span
+style="color:red">(jak go zrobić  i ile  tego trzeba wziąć)</span></p>
+
+<p>Czekolada 70%&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 180g</p>
+<p>Śmietana 36%&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;120g</p>
+<p>Cukier kryształ&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 40g</p>
+<p>Żółtka&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;40g</p>
+<p>Żelatyna&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4listki</p>
+
+
+      
+    
+	</div>
+    
+	<div class="w3-half w3-justify" style="text-align: left">
+     
+<p><b><u>PRZYGOTOWANIE:&nbsp;</u></b></p>
+<ol>
+  <li>Śmietanę z cukrem podgrzej do temperatury 70 stopni.&nbsp;</li>
+  <li> Dodaj żółtka i pasteryzuj do 75 stopni (ile czasu?).&nbsp;</li>
+  <li> Dodaj rozpuszczoną wcześniej żelatynę.&nbsp;</li>
+  <li> Odstaw wszystko do wystygnięcia do 35 stopni.&nbsp;</li>
+  <li> Czekoladę rozpuść w kąpieli wodnej. Czekolada ma mieć 40 stopni.&nbsp;</li>
+  <li> Krem angielski wlewaj stopniowo do czekolady i dokładnie wymieszaj do uzyskania jednolitej masy. Należy pamiętać, że temperatura kremu i czekolady powinna być podobna.&nbsp;</li>
+  <li>360 g śmietany (nieścisłość, to 360g czy 120g) ubitej na ¾ połącz z masą czekoladową i odstaw do lodówki.</li>
+</ol>
+
+    </div>
+      </div>
+<hr>
+<div class="w3-justify">
+<p><b><u>SKŁADANIE CIASTKA</u></b></p>
+<p>Upieczonego ptysia przetnij
+poziomo na wysokości 2/3 i naszprycuj masą czekoladową i galaretką z marakuii <span
+style="color:red">(a skąd galaretka z marakuji?).  </span>Następnie nałóż na
+wierzch wcześniej odciętą warstwę ptysia. Posyp cukrem pudrem lub dekorujemy wg
+uznania.</p>
+
+</div>
+
+
+		
+</div>
+
+      
+      
+ 
+    <!--div class="w3-quarter">
+      <img src="images_gallery/przepisy/czekolada_400_300.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div-->
   </div>
+  
+  
   
   <hr>
 <!-- Container (Contact Section) -->
@@ -246,7 +294,7 @@ Ciężka i wytrwała praca pozwoliła mi na wypracowanie autorskich przepisów n
      </div>
 	<p>Copyright © 2020 by Me.</p>
 	<h1 class="H1_Font_bottom w3-text-white">Krzysztof Kopciński</h1>
-  <a href="index.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
+  <a href="ptys.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
   
   </footer>
  
