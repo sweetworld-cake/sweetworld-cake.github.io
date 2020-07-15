@@ -61,19 +61,19 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> HOME</a>
-	  <a href="#home_small" class="w3-bar-item w3-button w3-hide-large w3-hide-medium"><i class="fa fa-home"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-hide-small w3-text-grey"><i class="fa fa-home"></i> HOME</a>
+	  <a href="#home_small" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-text-grey"><i class="fa fa-home"></i></a>
 	  <a href="#" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-youtube-play"></i></a>
 	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-instagram"></i></a>
 	  <a href="https://www.facebook.com/krzysztof.kopcinski.1" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-facebook-square"></i></a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> O MNIE</a>
-    <a href="#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
-	<a href="news.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> PRZEPISY</a>
-	  <a href="oferta.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> OFERTA</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKT</a>
-	   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-youtube-play"></i></a>
-	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-instagram"></i></a>
-    <a href="https://www.facebook.com/krzysztof.kopcinski.1" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-facebook-square"></i>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-text-grey"><i class="fa fa-user"></i> O MNIE</a>
+    <a href="#galeria" class="w3-bar-item w3-button w3-hide-small w3-text-grey"><i class="fa fa-th"></i> GALERIA</a>
+	<a href="news.html" class="w3-bar-item w3-button w3-hide-small w3-text-grey"><i class="fa fa-newspaper-o"></i> PRZEPISY</a>
+	  <a href="oferta.html" class="w3-bar-item w3-button w3-hide-small w3-text-grey"><i class="fa fa-book"></i> OFERTA</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-text-grey"><i class="fa fa-envelope"></i> KONTAKT</a>
+	   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-text-grey"><i class="fa fa-youtube-play"></i></a>
+	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-small w3-right w3-text-grey"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.facebook.com/krzysztof.kopcinski.1" class="w3-bar-item w3-button w3-hide-small w3-right w3-text-grey"><i class="fa fa-facebook-square"></i>
     </a>
 	  
   </div>
@@ -167,43 +167,43 @@ Londynie w hotelu Dorchester prowadzonym przez Alaina Ducassa, uznanego za jedne
 najlepszych szefów kuchni na świecie.</p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-<div class="slideshow-container">
+<div class="w3-container">
 		
 		<!--first slideshow-->
   <div class="mySlides fade">
 		<div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="images_gallery/01/derse12_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/01/derse12_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(1)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/01/deser11_400_300.jpg"  width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/01/deser11_400_300.jpg"  width="420" height="200" style="width:100%" onclick="openModal();currentDiv(2)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/01/lod_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/01/lod_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(3)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/01/deser6_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/01/deser6_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(4)" class="w3-hover-opacity" alt="">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section w3-hide-small">
     <div class="w3-col m3">
-      <img src="images_gallery/01/deser_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/01/deser_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(5)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/01/lodka_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/01/lodka_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(6)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/01/derser5_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/01/derser5_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(7)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/01/czekolada_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/01/czekolada_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(8)" class="w3-hover-opacity" alt="">
     </div>
 	  </div>
 		</div>
@@ -213,37 +213,37 @@ najlepszych szefów kuchni na świecie.</p><br>
 
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="images_gallery/02/deser10_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/02/deser10_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(9)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/02/deser13_400_250.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/02/deser13_400_250.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(10)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/02/deser13_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/02/deser13_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(11)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/02/deser2_400_300.jpg" style="width:100%" width="420" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/02/deser2_400_300.jpg" style="width:100%" width="420" height="200" onclick="openModal();currentDiv(12)" class="w3-hover-opacity" alt="">
     </div>
 	 
   </div>
 		   <div class="w3-row-padding w3-center w3-section w3-hide-small">
     <div class="w3-col m3">
-      <img src="images_gallery/02/deser3_400_300.png" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/02/deser3_400_300.png" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(13)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/02/deser7_400_300.jpg"  width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/02/deser7_400_300.jpg"  width="420" height="200" style="width:100%" onclick="openModal();currentDiv(14)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/02/rozowe_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/02/rozowe_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(15)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/02/z_czekolada_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/02/z_czekolada_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(16)" class="w3-hover-opacity" alt="">
     </div>
   </div>
 	  </div>
@@ -255,44 +255,79 @@ najlepszych szefów kuchni na świecie.</p><br>
 
 		   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="images_gallery/03/deser4_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/03/deser4_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(17)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/03/deser9_400_300.jpg"  width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/03/deser9_400_300.jpg"  width="420" height="200" style="width:100%" onclick="openModal();currentDiv(18)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/03/makaronik_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/03/makaronik_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(19)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/03/mech_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/03/mech_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(20)" class="w3-hover-opacity" alt="">
     </div>
   </div>
 		    <div class="w3-row-padding w3-center w3-section w3-hide-small">
     <div class="w3-col m3">
-      <img src="images_gallery/03/miecz_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/03/miecz_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(21)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/03/szaro_czerwone_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/03/szaro_czerwone_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(22)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/03/truskawki_400_300.jpg" width="420" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/03/truskawki_400_300.jpg" width="420" height="200" style="width:100%" onclick="openModal();currentDiv(23)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="images_gallery/03/z_mieta_400_300.jpg" style="width:100%" width="420" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="images_gallery/03/z_mieta_400_300.jpg" style="width:100%" width="420" height="200" onclick="openModal();currentDiv(24)" class="w3-hover-opacity" alt="">
     </div>
 	
   </div>
 	  </div>
 	<!-- End slideshow-->
 	<!-- Next and previous buttons -->
-		<a class="prev w3-hide-small" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next w3-hide-small" onclick="plusSlides(1)">&#10095;</a>
+	<div id="myModal" class="w3-modal w3-white">
+			 <span class="w3-text-black w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal()" style="cursor:pointer">×</span>
+			 <div class="w3-modal-content">
+
+			  <div class="w3-content" style="max-width:100%">
+			   	<img class="mySlides1" src="images_gallery/01/derse12_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/01/deser11_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/01/lod_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/01/deser6_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/01/deser_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/01/lodka_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/01/derser5_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/01/czekolada_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/02/deser10_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/02/deser13_400_250.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/02/deser13_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/02/deser2_400_300.jpg" style="width:100%"> 
+				  <img class="mySlides1" src="images_gallery/02/deser3_400_300.png" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/02/deser7_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/02/rozowe_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/02/z_czekolada_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/03/deser4_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/03/deser9_400_300.jpg"  style="width:100%">
+				  <img class="mySlides1" src="images_gallery/03/makaronik_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/03/mech_400_300.jpg" width="420" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/03/miecz_400_300.jpg" width="420" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/03/szaro_czerwone_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/03/truskawki_400_300.jpg" style="width:100%">
+				  <img class="mySlides1" src="images_gallery/03/z_mieta_400_300.jpg" style="width:100%">
+					<button class="w3-button w3-black w3-display-left " style="opacity: 0.3" onclick="plusDivs(-1)">&#10094;</button>
+			  <button class="w3-button w3-black w3-display-right " style="opacity: 0.3" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+   
+   
+  
+ </div> <!-- End modal content -->
+</div> <!-- End modal -->
 </div>
 	<!-- The dots/circles -->
 	<div calss ="w3-padding-large w3-hide-small" style="text-align:center">
@@ -308,13 +343,7 @@ Miałem również przyjemność pełnić funkcje Pastry Chef w restauracji Tamka
 	</div>
 	
 <!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
+
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
@@ -348,28 +377,28 @@ Miałem również przyjemność pełnić funkcje Pastry Chef w restauracji Tamka
 	<h4 class="w3-center w3-text-grey w3-small">PARTNERZY</h4>
   <div class="w3-cell-row">
 	<div class="w3-container w3-cell w3-mobile">
-    <img src="logo_partnerow/ashanti-logo-PL.png"  style="width:100px" onclick="onClick(this)" class="w3-hover-opacity w3-padding-16" alt="">
+    <img src="logo_partnerow/ashanti-logo-PL.png"  style="width:100px" onclick="openModal();currentDiv(1)" class="w3-hover-opacity w3-padding-16" alt="">
 	    </div>
 	  <div class="w3-container w3-cell w3-mobile">
-  <img src="logo_partnerow/BOC_EUROPE_Academy_PL_jpg.jpg"  style="width:100px" onclick="onClick(this)" class="w3-hover-opacity w3-padding-16" alt="">
+  <img src="logo_partnerow/BOC_EUROPE_Academy_PL_jpg.jpg"  style="width:100px" onclick="openModal();currentDiv(1)" class="w3-hover-opacity w3-padding-16" alt="">
 	    </div>
 	  <div class="w3-container w3-cell w3-mobile">
-    <img src="logo_partnerow/bosch.png" style="width:100px" onclick="onClick(this)" class="w3-hover-opacity w3-padding-16" alt="">
+    <img src="logo_partnerow/bosch.png" style="width:100px" onclick="openModal();currentDiv(1)" class="w3-hover-opacity w3-padding-16" alt="">
 	    </div>
 	  <div class="w3-container w3-cell w3-mobile">
-   <img src="logo_partnerow/gaggenau.png"  style="width:100px" onclick="onClick(this)" class="w3-hover-opacity w3-padding-16" alt="">
+   <img src="logo_partnerow/gaggenau.png"  style="width:100px" onclick="openModal();currentDiv(1)" class="w3-hover-opacity w3-padding-16" alt="">
 	    </div>
 	  <div class="w3-container w3-cell w3-mobile">
-  <img src="logo_partnerow/logo_sicoly.png"  style="width:100px" onclick="onClick(this)" class="w3-hover-opacity w3-padding-16" alt="">
+  <img src="logo_partnerow/logo_sicoly.png"  style="width:100px" onclick="openModal();currentDiv(1)" class="w3-hover-opacity w3-padding-16" alt="">
 	    </div>
   <div class="w3-container w3-cell w3-mobile">
-   <img src="logo_partnerow/siemens.png"  style="width:100px" onclick="onClick(this)" class="w3-hover-opacity w3-padding-16" alt="">
+   <img src="logo_partnerow/siemens.png"  style="width:100px" onclick="openModal();currentDiv(1)" class="w3-hover-opacity w3-padding-16" alt="">
   </div>
 <div class="w3-container w3-cell w3-mobile">
-   <img src="logo_partnerow/smarten-1.jpg"  style="width:100px" onclick="onClick(this)" class="w3-hover-opacity w3-padding-16" alt="">
+   <img src="logo_partnerow/smarten-1.jpg"  style="width:100px" onclick="openModal();currentDiv(1)" class="w3-hover-opacity w3-padding-16" alt="">
   </div>
 	  <div class="w3-container w3-cell w3-mobile">
-    <img src="logo_partnerow/bsh.png"  style="width:100px" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    <img src="logo_partnerow/bsh.png"  style="width:100px" onclick="openModal();currentDiv(1)" class="w3-hover-opacity" alt="">
 	    </div>
 	  </div>
 </div>

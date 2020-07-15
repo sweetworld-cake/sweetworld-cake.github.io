@@ -1,11 +1,4 @@
 // Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
@@ -44,15 +37,16 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2500); // Change image every 2,5 seconds
+  setTimeout(showSlides, 3500); // Change image every 2,5 seconds
 }
-
+/////////////////////////////////////////
+///////////////////////////////////////////////
 var j = 0;
-var txt = 'Krzysztof Kopciński';
+var txt03 = 'Krzysztof Kopciński';
 var speed = 50;
 function typeWriter() {
-  if (j < txt.length) {
-    document.getElementById("typewriter011").innerHTML += txt.charAt(j);
+  if (j < txt03.length) {
+    document.getElementById("typewriter011").innerHTML += txt03.charAt(j);
     j++;
     setTimeout(typeWriter, speed);
   }
@@ -70,4 +64,43 @@ function typeWriter02() {
   }
 	 }
 typeWriter02();
+
+////////////
+///////////////////////////////////////
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex1 = 1;
+showDivs(slideIndex1);
+function plusDivs(m) {
+  showDivs(slideIndex1 += m);
+}
+
+function currentDiv(m) {
+  showDivs(slideIndex1 = m);
+}
+
+function showDivs(m) {
+  var d;
+  var z = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (m > z.length) {slideIndex1 = 1}
+  if (m < 1) {slideIndex1 = z.length}
+  for (d = 0; d < z.length; d++) {
+    z[d].style.display = "none";
+  }
+  for (d = 0; d < dots.length; d++) {
+    dots[d].className = dots[d].className.replace(" w3-opacity-off", "");
+  }
+  z[slideIndex1-1].style.display = "block";
+  dots[slideIndex1-1].className += " w3-opacity-off";
+  captionText.innerHTML = dots[slideIndex1-1].alt;
+}
+
 	
