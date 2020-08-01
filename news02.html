@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html id="home_mus">
+<html id="news02">
 <head>
 <title>Krzysztof Kopciński</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/w3.css">
-<link href="css/styles_przepisy.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 <link href="css/Slideshow.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/image_grid.css" rel="stylesheet" type="text/css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -24,21 +25,21 @@ body, html {
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top w3-large">
+<div class="w3-top w3-large" >
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="index.html#home" class="w3-bar-item w3-button w3-hide-small" id="home"><i class="fa fa-home"></i> HOME</a>
+    <a href="index.html#home" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> HOME</a>
 	  <a href="index.html#home_small" class="w3-bar-item w3-button w3-hide-large w3-hide-medium"><i class="fa fa-home"></i></a>
 	  <a href="#" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-youtube-play"></i></a>
 	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-instagram"></i></a>
 	  <a href="https://www.facebook.com/krzysztof.kopcinski.1" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"><i class="fa fa-facebook-square"></i></a>
     <a href="index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> O MNIE</a>
     <a href="index.html#galeria" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALERIA</a>
-	<a href="news.html#HOME_PRZEPISY" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> PRZEPISY</a>
+	<a href="news.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> PRZEPISY</a>
 	  <a href="oferta.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> OFERTA</a>
-	  <a href="news02.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> AKTUALNOŚCI</a>
+	  <a href="#news02" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> AKTUALNOŚCI</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> KONTAKT</a>
 	   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-youtube-play"></i></a>
 	  <a href="https://www.instagram.com/krzysztof_kopcinski_" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-instagram"></i></a>
@@ -51,9 +52,9 @@ body, html {
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">O MNIE</a>
     <a href="index.html#galeria" class="w3-bar-item w3-button" onclick="toggleFunction()">GALERIA</a>
-	<a href="#HOME_PRZEPISY" class="w3-bar-item w3-button" onclick="toggleFunction()">PRZEPISY</a>
-	  <a href="oferta.html" class="w3-bar-item w3-button" onclick="toggleFunction()">OFERTA</a>
-	  <a href="news02.html" class="w3-bar-item w3-button" onclick="toggleFunction()">AKTUALNOŚCI</a>
+	<a href="news.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PRZEPISY</a>
+	  <a href="#home_oferta" class="w3-bar-item w3-button" onclick="toggleFunction()">OFERTA</a>
+	  <a href="#news02" class="w3-bar-item w3-button" onclick="toggleFunction()">AKTUALNOŚCI</a>
     <a href="index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">KONTAKT</a>
      </div>
 	
@@ -61,18 +62,18 @@ body, html {
 <!--Page Content-->
 	
 <div calss="w3-content w3-container w3-padding-32" style="margin-top: 50px">
-
-	<div class="w3-content w3-container w3-padding-8 w3-hide-small" id="about">
-			<div class="first_bar">
+	<div class="w3-content w3-container w3-padding-16 w3-hide-small">
+	<div class="first_bar">
 	  <div class="first_bar_cont">
 		
-	
-		<h1 class="w3-center H1_Font_top_max">Krzysztof Kopciński</h1>
 		
+<h1 class="w3-center H1_Font_top_max">Krzysztof Kopciński</h1>
+		 
 		</div>
 	</div>
 	</div>
-			<hr>	
+	
+				
 <div class="w3-display-container w3-hide-large w3-hide-medium" id="home_small">
   <!--div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
@@ -89,197 +90,168 @@ body, html {
       <p><a href="#galeria" class="w3-hide-small w3-button w3-white w3-padding-large w3-large w3-opacity-max w3-hover-opacity-off"><b>GALERIA</b></a></p>
     </div>
 </div>
+	<div class="w3-content w3-container w3-padding-32 w3-justify" style="max-width:1400px" id="about">
+			<h2 class="w3-center przepisy_header"><b>Aktualności&nbsp;</b></h2>
 	
+		<!-- Blog Grid -->
+		<hr>
+<div class="w3-row">
 
-  <!-- First Photo Grid-->
-
-  <div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
-    
-	  <div style="text-align: left">
-		  <h4 class="w3-center w3-hide-large w3-hide-medium">AUTORSKI PRZEPIS NA</h4> 
-	  <h3 class="w3-center w3-hide-large w3-hide-medium">Mus limonkowo-kokosowy z tapioką i śliwką</h3>
-     
-     
-	  <div style="height: 10vw">
-      <h3 class="w3-center przepisy_header w3-hide-small"><b>AUTORSKI PRZepis na</b></h3>
-<h1 class="w3-center w3-hide-small ">Mus limonkowo-kokosowy z tapioką i śliwką</h1>
-		 </div>
-	
-      <img src="images_gallery/przepisy/czekolada_400_300.jpg" style="width:100%">
-			
-    
-
-<hr>
-<!--First part of recipe-->
-<div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
-		  
- <div class="w3-half">
-			  
-  <div class="w3-col w3-container w3-hide-small" style="width:50%">
-			     <div class="w3-justify" style="text-align: left">
-				<p><b><u>MUS LIMONKA/KOKOS</u></b></p>
-				<p>Mleczko kokosowe</p>
-				<p>Sok z limonki</p>
-				<p>Cukier kryształ</p>
-				<p>Lstki żelatyny</p>
-				<p>Śmietana 36%</p>
-
-				</div>
-	</div>
-	   <div class="w3-col w3-container w3-hide-large w3-hide-medium" style="width:75%">
-			     <div class="w3-justify" style="text-align: left">
-				<p><b><u>MUS LIMONKA/KOKOS</u></b></p>
-				<p>Mleczko kokosowe</p>
-				<p>Sok z limonki</p>
-				<p>Cukier kryształ</p>
-				<p>Lstki żelatyny</p>
-				<p>Śmietana 36%</p>
-
-				</div>
-	</div>
-  <div class="w3-col w3-container" style="width:25%">
-				  
-	  <div class="w3-justify" style="text-align: left">
-				<p><b><u></u>&nbsp;</b></p>
-		<p>280 g</p>
-		<p>120 g</p>
-		<p>125 g</p>
-		<p>6 list.</p>
-		<p>250 g</p>
-			</div>
- </div>
-	</div>
-	<!--empty collumn-->	
-  <!--end epty collumn-->
-	<div class="w3-half">
-	 <div class="w3-col w3-container" style="width:100%">
-	  <div class="w3-justify" style="text-align: left">
-		<p><b><u>PRZYGOTOWANIE:</u></b></p>
-		<ol>
-		  <li>Podgrzej mleczko kokosowe , sok z limonki i cukier .</li>
-		  <li>Dodaj namoczoną wcześniej  żelatynę i ostudzić wszystko do 35 stopni.</li>
-		  <li>Połącz masę z napowietrzoną śmietaną (ubij śmietanę mikserem).</li>
-		  <li>Masę przełóż do dowolnej (najlepiej silikonowej) foremki, którą napełnij do 2/3 jej wysokości. Odstaw do schłodzenia.</li>
-		  <li>Mus nie może do końca zastygnąć </li>
-		</ol>
-				  
-	  </div>
-		</div>
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <!--img src="images/woods.jpg" alt="Nature" style="width:100%"-->
+	  <!--iframe src="https://www.youtube.com/embed/8xWX0OVVEmA" style="width:100%">
+</iframe-->
+    <div class="container-iframe"> 
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/8xWX0OVVEmA"></iframe>
 </div>
+	  <div class="w3-container">
+      <h3><b>Podstawy cukiernictwa - szkoła ASHANTI</b></h3>
+      <h5>Dwudniowe szkolenie:&nbsp; <span class="w3-opacity"> 3 i 4 sierpnia 2020r.</span></h5>
+    </div>
+
+    <div class="w3-container">
+            <p>Podstawy cukiernictwa, czyli to co każdy cukiernik wiedzieć powinien. Doskonałe szkolenie aby wznieść na wyżyny swoje umiejętności cukiernicze lub odkryć w sobie cukierniczą pasję.</p>
+<div class="w3-row">
+  <div class="w3-col m8 s12">
+          <p><a href="http://www.ashanti.pl/pl/szkolenia/atelier-mistrzow-czekolady/item/731-podstawy-cukiernictwa" style="text-decoration:none"><button class="w3-button w3-padding-large w3-white w3-border"><b>WIĘCEJ »</b></button></a></p>
+        </div>
+        
+    </div>
+    </div>
+  </div>
+  <hr>
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="images/KK2.jpg" alt="Nature"  style="width:100%">
+    <!--div class="container-iframe"> 
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/8xWX0OVVEmA"></iframe>
+</div-->
+	  <div class="w3-container">
+      <h3><b>Ranking jagodzianek</b></h3>
+      <h5>Pytanie na śniadanie:&nbsp; <span class="w3-opacity"> 23 sierpnia 2020r.</span></h5>
+    </div>
+
+    <div class="w3-container">
+            <p>Jagodzianki - czyli drożdzowe bułeczki z jagodami. W programie uczestnicy wybierają najsmaczniejszą bułeczkę z tymi owocami.</p>
+<div class="w3-row">
+  <div class="w3-col m8 s12">
+          <p><a href="https://pytanienasniadanie.tvp.pl/49091491/ranking-jagodzianek" style="text-decoration:none"><button class="w3-button w3-padding-large w3-white w3-border"><b>WIĘCEJ »</b></button></a></p>
+        </div>
+        
+    </div>
+    </div>
+  </div>
+	<hr>
+  <!-- Blog entry -->
+<div class="w3-card-4 w3-margin w3-white">
+    <!--img src="images/woods.jpg" alt="Nature" style="width:100%"-->
+	  <!--iframe src="https://www.youtube.com/embed/8xWX0OVVEmA" style="width:100%">
+</iframe-->
+    <div class="container-iframe"> 
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/HQHoiOAlMM0"></iframe>
 </div>
-	<hr>	  
+	  <div class="w3-container">
+      <h3><b>Szkolenie cukiernicze - szkoła ASHANTI</b></h3>
+      <h5>Dwudniowe szkolenie: &nbsp; <span class="w3-opacity"> 20 i 21 luty 2020r.</span></h5>
+    </div>
 
-<!--Secund part of recipe-->
-<div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
-	<div class="w3-half">
-  <div class="w3-col w3-container w3-hide-small" style="width:50%">
-	
-	  <div class="w3-justify" style="text-align: left">
-				<p><b><u>TAPIOKA</u></b></p>
-				<p>Kasza moniaku (tapioka)</p>
-		 <p>Woda</p>
-			<p>Mleczko kokosowe</p>
-			<p>Ksylitol</p>
-			<p>Trawa cytrynowa</p>
-
-						</div>
-	</div>
-		<div class="w3-col w3-container w3-hide-large w3-hide-medium" style="width:75%">
-	
-	  <div class="w3-justify" style="text-align: left">
-				<p><b><u>TAPIOKA</u></b></p>
-				<p>Kasza moniaku (tapioka)</p>
-		 <p>Woda</p>
-			<p>Mleczko kokosowe</p>
-			<p>Ksylitol</p>
-			<p>Trawa cytrynowa</p>
-
-						</div>
-	</div>
-  <div class="w3-col w3-container" style="width:25%">
-	  <div class="w3-justify" style="text-align: left">
-				<p><b><u></u>&nbsp;</b></p>
-		<p>75 g</p>
-		<p>125 g</p>
-		<p>125 g</p>
-		<p>20 g</p>
-		<p>1 szt.</p>
-			</div>
- </div>
-	</div>
-	
-	<div class="w3-half">
-	 <div class="w3-col w3-container" style="width:100%">
-	  <div class="w3-justify" style="text-align: left">
-		<p><b><u>PRZYGOTOWANIE:</u></b></p>
-			<ol>
-			  <li> Tapiokę zalej ciepłym mlekiem kokosowym i wodą, dodaj trawę cytrynową. Odstaw do ostygnięcia.</li>
-			  <li> Po ostygnięciu dodaj cukier i gotuj całość około 15 minut do czasu, aż perełki tapioki staną się przezroczyste i miękkie.</li>
-			  <li>Do formy z musem limonkowo-kokosowym szprycuj tapiokę. Resztę formy uzupełnij pozostałą częścią musu limonowo-kokosowego. Mocno schłodź.</li>
-			</ol> 
-	  </div>
-	</div>
+    <div class="w3-container">
+            <p>W trakcie dwóch dni szkolenia uczestnicy poznają techniki wykonywania różnych elementów deserów restauracyjnych, nauczą się je komponować, mieszać struktury i smaki, łączyć słodkie elementy ze smakami kuchni słonej tak, by tworzyć własne, niepowtarzalne aranżacje.</p>
+<div class="w3-row">
+  <div class="w3-col m8 s12">
+          <p><a href="http://www.ashanti.pl/pl/szkolenia" style="text-decoration:none"><button class="w3-button w3-padding-large w3-white w3-border"><b>WIĘCEJ »</b></button></a></p>
+        </div>
+        
+    </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
 </div>
-</div> 
-<hr>
 
-<!--Third  part of recipe-->
-<div class="w3-content w3-container w3-padding-32 w3-row-padding w3-padding-16 w3-center">
-	<div class="w3-half">
-  <div class="w3-col w3-container w3-hide-small" style="width:50%">
-	
-	  <div class="w3-justify" style="text-align: left">
-				<p><b><u>ŚLIWKA</u></b></p>
-				<p>Śliwka</p>
-		 		<p>Miód</p>
-			</div>
-	</div>
-		 <div class="w3-col w3-container w3-hide-large w3-hide-medium" style="width:60%">
-	
-	  <div class="w3-justify" style="text-align: left">
-				<p><b><u>ŚLIWKA</u></b></p>
-				<p>Śliwka</p>
-		 		<p>Miód</p>
-			</div>
-	</div>
-  <div class="w3-col w3-container" style="width:40%">
-	  <div class="w3-justify" style="text-align: left">
-				<p><b><u></u>&nbsp;</b></p>
-		<p>1 szt.</p>
-		<p>1 łyżeczka</p>
-					</div>
- </div>
-	</div>
-	
-	<div class="w3-half">
-	 <div class="w3-col w3-container" style="width:100%">
-	  <div class="w3-justify" style="text-align: left">
-		<p><b><u>PRZYGOTOWANIE:</u></b></p>
-			<ol>
-		  <li>Śliwkę umyj, wyjmij pestkę i pokrój na 8 równych części.&nbsp;</li>
-		  <li>Do garnka włóż miód i pokrojoną śliwkę.&nbsp;</li>
-		  <li>Jak śliwka zacznie się rumienić wyjmij ją i odstaw do wystygnięcia.&nbsp;</li>
-		  <li>Śliwką udekoruj deser.</li>
-		</ol>
-
-	  </div>
-	</div>
-</div>
-</div> 
-
-		
-</div>
-<dev class="w3-center w3-padding-32  w3-hover-opacity-off">
-
-	<p><b><u></u>&nbsp;</b></p>
-  <a href="news.html" class="w3-button w3-light-grey"><i class="fa fa-newspaper-o w3-margin-right"></i>Powrót do przepisów</a>
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+ 
   
-  </dev>
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding w3-light-grey">
+      <h4>Popularne aktualności</h4>
+		    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="images/08.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Podstawy cukiernictwa</span><br>
+        <span>3 i 4 sierpnia 2020r.&nbsp;</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="images/KK2.jpg" alt="Image" class="w3-left w3-margin-right" height="40px" style="width:50px">
+        <span class="w3-large">Ranking jagodzianek </span><br>
+        <span>Telewizja: Pytanie na Śniadanie</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="images/09.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Szkolenie cukiernicze</span><br>
+        <span>20 luty 2020r.</span>
+      </li>   
+       
+    </ul>
+  </div>
+	
+  <!--hr> 
+ <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding w3-light-grey">
+      <h4>Ostatnio dodane</h4>
+
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Podstawy cukiernictwa</span><br>
+        <span>3 i 4 sierpnia 2020r.&nbsp;</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Ipsum</span><br>
+        <span>Praes tinci sed</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Szkolenie cukiernicze</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li>  
+    </ul>
+  </div>
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Jagodzianki</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Szkolenia cukiernicze</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Warsztaty</span>
+    </p>
+    </div>
   </div>
   
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div>
+		
+  </div>
+  <!-- First Photo Grid-->
+<hr>
   
   
-  <hr>
+  
 <!-- Contact -->
 <div class="w3-content w3-container w3-padding-64" style="margin-top: 80px" id="contact">
   <div class="w3-row w3-section">
@@ -288,7 +260,7 @@ body, html {
       <img src="images/MG_0301.jpg" class="w3-image w3-round" style="width: 60%">
     </div>
     <div class="w3-col m8 w3-panel">
-      <h1 class="w3-text-left w3-padding-8 w3-hide-small">ZAPRASZAM DO KONTAKTU</h1>
+		<h1 class="w3-text-left w3-padding-8 w3-hide-small">ZAPRASZAM DO KONTAKTU</h1>
       <h4 class="w3-text-left w3-padding-8 w3-hide-large w3-hide-medium">ZAPRASZAM DO KONTAKTU</h4>
 		<div class="w3-large w3-margin-bottom">
 			
@@ -344,7 +316,7 @@ body, html {
 	<p>Copyright © 2020 by Me.</p>
 	<h1 class="H1_Font_bottom w3-text-white">Krzysztof Kopciński</h1>
 	<h1 class="w3-large">Pastry Chef</h1><br>
-  <a href="#home_mus" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
+  <a href="#news02" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
   
   </footer>
  
