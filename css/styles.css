@@ -114,8 +114,7 @@ body, html {height: 100%;margin: 0; scroll-behavior: smooth;}
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 	background-color:rgba(0,0,0,.85);
-	
-}
+	}
 
 .container:hover .image {
   opacity: 0.3;
